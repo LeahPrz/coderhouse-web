@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link para incluir CSS de forma externa -->
+    <link rel="stylesheet" href="CSS/estilos.css">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Contacto</title>
+</head>
+<body class="grilla">
+    
+<header class="header">
+        <img src="./Images/logo.svg" alt="logo" title="logo">
+        <h1>Cinnamon Design Agency</h1>
+</header>
+
+<nav>
+        <ul class="listaPosicion" id="menu-flex">
+            <li class="boton-flex"> <a href="./Pages/Index.html">Inicio</a></li>
+            <li class="boton-flex"> <a href="./Pages/Servicios.html">Servicios</a></li>
+            <li class="boton-flex"> <a href="./Pages/Proyectos.html">Proyectos</a></li>
+            <li class="boton-flex"> <a href="./Pages/Nosotros.html">Nosotros</a></li>
+            <li class="boton-flex"> <a href="./Pages/Contacto.html">Contacto</a></li>
+        </ul>
+</nav>
+
+<main>
+    <h2>Contacto</h2>
+    <form action="" method="POST" enctype="text/plain">
+        <label for="nombre_contacto">Nombre</label>
+        <input type="text" name="nombre_contacto" placeholder="Nombre"/>
+
+        <label for="apellido_contacto">Apellido</label>
+        <input type="text" name="apellido_contacto" placeholder="Apellido"/>
+
+        <label for="email_contacto">E-mail</label>
+        <input type="email" name="email_contacto" placeholder="Email"/>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea rows="10" cols="10" name="mensaje"></textarea>
+        
+        <div>
+            <input type="checkbox" name="acepta" value="Acepta">
+            <p>Acepta términos y condiciones</p>
+        </div>
+        <input type="submit" value="Enviar"/>
+    </form>
+
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112621.0850523216!2d-15.531974227620204!3d28.103567661374132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40953ff404d0b9%3A0x1ef2945b25e43e47!2sParque%20de%20Santa%20Catalina!5e0!3m2!1ses!2ses!4v1629581217908!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</main>
+
+    <footer class="footer">
+        <img src="Images/logofooter.svg" alt="logo" class="footer img">
+        <p class="footer p">¡Síguenos en nuestras redes sociales!</p>
+        <img src="Images/rrss/fb.svg" alt="facebook">
+        <img src="Images/rrss/ig.svg" alt="instagram">
+        <img src="Images/rrss/yt.svg" alt="youtube">
+        <img src="Images/rrss/tw.svg" alt="twitter">
+    </footer>
+</body>
+</html>
